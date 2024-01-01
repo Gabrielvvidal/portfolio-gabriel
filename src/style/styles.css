@@ -14,7 +14,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
   padding: 0 60px;
 }
 
@@ -30,4 +29,37 @@
   font-size: 20;
   font-weight: 700;
   text-decoration: none;
+  user-select: none;
+}
+
+.partOne{
+  width: 100%;
+  height: 412px;
+  background-color: #0768DE;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partTwo{
+  width: 100%;
+  height: 165px;
+  background-color: #0768DE;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
+}
+
+.titleAbout{
+  font-size: 36px;
+  color: #ffffff;
+  padding-bottom: 10px;
+  user-select: none;
+}
+
+.descAbout{
+  font-size: 28px;
+  width: 588px;
+  text-align: center;
+  color: #ffffff;
+  user-select: none;
 }
