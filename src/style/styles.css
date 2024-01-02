@@ -15,6 +15,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 60px;
+  position: sticky;
+  top: 0;
 }
 
 .linkPending{
@@ -62,4 +64,45 @@
   text-align: center;
   color: #ffffff;
   user-select: none;
+}
+
+.skillContainer{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleSkill{
+  font-size: 36px;
+  color: #0768DE;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.skillBox{
+  width: 147px;
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.skillName{
+  font-size: 24px;
+  color: #0768DE;
+}
+
+.showSkill{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.btnNav{
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
 }
