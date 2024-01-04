@@ -1,0 +1,14 @@
+.skillBox{
+  width: 147px;
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.skillName{
+  font-size: 24px;
+  color: #0768DE;
+  user-select: none;
+}

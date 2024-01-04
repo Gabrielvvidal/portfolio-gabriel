@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import BtnWhite from "../components/BtnWhite";
 
 export default function Project() {
   const scrollContainerRef = useRef(null);
@@ -78,7 +79,9 @@ export default function Project() {
 
       <p style={{color: "#ffffff", fontSize: "28px", marginBottom: "10px"}}>Surgiu algum interesse?</p>
 
-      <Link to="/contato"><button className="btnNav" style={{backgroundColor: "#FFFFFF"}}><span style={{color: "#0768DE", fontSize: "24px"}}>Entre em contato</span></button></Link>
+      <BtnWhite>
+        Entre em contato
+      </BtnWhite>
     </div>
   )
 }

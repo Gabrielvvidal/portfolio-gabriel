@@ -1,0 +1,15 @@
+.btnBlue{
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #0768DE;
+  color: #ffffff;
+  font-size: 24px;
+  transition: 0.2s;
+  user-select: none;
+}
+
+.btnBlue:hover{
+  background-color: #054fa8;
+}
