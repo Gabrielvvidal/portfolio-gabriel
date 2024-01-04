@@ -1,0 +1,24 @@
+.sliderContainer{
+  width: 1060px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sliderContent{
+  width: 940px;
+  height: 400px;
+  margin: 0 20px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 20px;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+}
+
+.sliderContent::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}

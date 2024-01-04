@@ -1,0 +1,15 @@
+.sliderBox{
+  min-width: 300px;
+  min-height: 400px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.sliderBox h3{
+  font-size: 24px;
+  color: #0768DE;
+}
