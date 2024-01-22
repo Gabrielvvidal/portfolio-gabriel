@@ -10,6 +10,10 @@
   top: 0;
 }
 
+.menuResponsivo{
+  display: none;
+}
+
 .linkPending{
   color: #D9DDFF;
 }
@@ -23,4 +27,24 @@
   font-weight: 700;
   text-decoration: none;
   user-select: none;
+}
+
+@media (max-width: 870px) {
+  .linksMaior{
+    display: none;
+  }
+
+  .menuResponsivo{
+    display: block;
+  }
+
+  .navContainer{
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 400px){
+  .navContainer{
+    padding: 0 15px;
+  }
 }
