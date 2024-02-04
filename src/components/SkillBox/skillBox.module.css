@@ -12,3 +12,19 @@
   color: #0768DE;
   user-select: none;
 }
+
+@media (max-width: 510px){
+  .skillName{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 420px){
+  .skillName{
+    font-size: 20px;
+  }
+
+  .skillBox{
+    width: 120px;
+  }
+}

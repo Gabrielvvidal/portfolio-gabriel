@@ -44,7 +44,7 @@ export default function Navbar() {
   return (
     <>
       <div className={styles.navContainer}>
-        <img src={windowSize < 400 ? logoTwo : logoOne} alt="Logo" />
+        <img src={windowSize <= 400 ? logoTwo : logoOne} alt="Logo" />
 
         <div className={styles.linksMaior}>
           <NavLink

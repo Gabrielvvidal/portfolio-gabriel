@@ -31,3 +31,84 @@
   color: #ffffff;
   user-select: none;
 }
+
+@media (max-width: 620px){
+  .partOne{
+    height: 350px;
+    padding-top: 100px;
+  }
+
+  .partTwo{
+    height: 130px;
+  }
+
+  .titleAbout{
+    font-size: 30px;
+  }
+
+  .descAbout{
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 510px){
+  .partOne{
+    height: 290px;
+    padding-top: 90px;
+  }
+
+  .partTwo{
+    height: 130px;
+  }
+
+  .titleAbout{
+    font-size: 28px;
+  }
+
+  .descAbout{
+    font-size: 18px;
+    width: 400px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px){
+  .partOne{
+    height: 250px;
+    padding-top: 90px;
+  }
+
+  .partTwo{
+    height: 100px;
+  }
+
+  .titleAbout{
+    font-size: 22px;
+  }
+
+  .descAbout{
+    font-size: 18px;
+    width: 380px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px){
+  .descAbout{
+    font-size: 14px;
+    width: 300px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 325px){
+  .titleAbout{
+    font-size: 20px;
+  }
+
+  .partTwo{
+    height: 60px;
+  }
+}
