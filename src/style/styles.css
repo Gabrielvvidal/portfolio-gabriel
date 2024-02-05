@@ -7,26 +7,57 @@
   font-family: 'Space Mono', monospace;
 }
 
-.projectSection{
+.projectSection, .contactSection, .buttonsContact{
+  display: flex;
+  justify-content: center;
+}
+
+.projectSection, .contactSection{
   background-color: #0768DE;
   width: 100%;
   height: 91vh;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.titleProject{
-  font-size: 36px;
+.titleProject, .titleContact, .interesseProjeto, .nameContact{
   color: #ffffff;
-  padding-bottom: 35px;
+}
+
+.titleProject, .titleContact{
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.interesseProjeto, .fotoPerfil{
+  margin-bottom: 10px;
 }
 
 .interesseProjeto{
-  color: #ffffff;
   font-size: 28px;
-  margin-bottom: 10px;
+}
+
+.fotoPerfil{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+
+.nameContact{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttonsContact{
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 475px){
+  .nameContact{
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 425px){
@@ -35,9 +66,20 @@
   }
 }
 
+@media (max-width: 365px){
+  .fotoPerfil{
+    width: 250px;
+    height: 250px;
+  }
+}
+
 @media (max-width: 355px){
   .titleProject{
     font-size: 34px;
+  }
+
+  .nameContact{
+    font-size: 14px;
   }
 }
 
