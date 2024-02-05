@@ -13,3 +13,17 @@ div.sliderBox h3{
   font-size: 24px;
   color: #0768DE;
 }
+
+@media (max-width: 405px){
+  .sliderBox{
+    min-width: 250px;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 355px){
+  .sliderBox{
+    min-width: 200px;
+    min-height: 300px;
+  }
+}

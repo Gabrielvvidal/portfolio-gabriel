@@ -14,3 +14,10 @@
 .sliderBtn:hover{
   background-color: #d4d4d4;
 }
+
+@media (max-width: 315px){
+  .sliderBtn{
+    width: 30px;
+    height: 30px;
+  }
+}

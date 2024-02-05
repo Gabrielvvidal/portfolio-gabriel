@@ -28,7 +28,7 @@ export default function Project() {
         funcaoBtnDir={() => handleScroll('right')}
       />
 
-      <p style={{color: "#ffffff", fontSize: "28px", marginBottom: "10px"}}>Surgiu algum interesse?</p>
+      <p className="interesseProjeto">Surgiu algum interesse?</p>
 
       <BtnWhite>
         Entre em contato
