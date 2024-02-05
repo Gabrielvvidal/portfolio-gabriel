@@ -11,7 +11,7 @@ export default function Contact() {
       <p className="nameContact">Gabriel Vieira Vidal de Carvalho</p>
 
       <div className="buttonsContact">
-        <BtnContact text="Meu CV" path="https://drive.google.com/uc?export=download&id=1ZztV1VTASFcCCjGWDLSDOrd3R_PJZPTf"/>
+        <BtnContact text="Meu CV" path="https://drive.google.com/uc?export=download&id=1g9BrAud08SsEeFiNM2usVLue7Uil8ti5"/>
 
         <BtnContact text="E-mail" path="mailto:gabrielvieiravidal2005@gmail.com"/>
 
